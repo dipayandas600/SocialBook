@@ -1,0 +1,17 @@
+/* ======== HEADER-SECTION-START ======== */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* -------- NAVBER-SECTION-START -------- */
+
+.header-section .navber-section nav{
+    background-color: aliceblue;
+    height: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
