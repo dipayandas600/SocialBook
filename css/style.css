@@ -6,12 +6,66 @@
     box-sizing: border-box;
 }
 
+.header-section{
+    background-color: aliceblue;
+}
+
 /* -------- NAVBER-SECTION-START -------- */
 
-.header-section .navber-section nav{
-    background-color: aliceblue;
-    height: 34px;
+.navber-section nav{
+    max-width: 80vw;
+    margin: auto;
+    height: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.navber-section nav .left-side .logo h1{
+    font-size: 34px;
+    color: blue;
+    letter-spacing: 4px;
+}
+
+.navber-section nav .meddle .search-box input{
+    padding: 4px 216px 4px 216px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: none;
+}
+
+.navber-section nav .meddle .search-box .search-button{
+    padding: 4px 16px 4px 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+}
+
+.navber-section nav .meddle .search-box a{
+    text-decoration: none;
+    color: black;
+}
+
+.navber-section nav .right-side{
+    display: flex;
+    gap: 88px;
+}
+
+.navber-section nav .right-side .login-and-signup{
+    padding: 4px 16px 4px 16px;
+    border-radius: 16px;
+    border: none;
+}
+
+.navber-section nav .right-side a{
+    text-decoration: none;
+    color: black;
+}
+
+.navber-section nav .right-side .profile-image{
+    padding: 4px 16px 4px 16px;
+    border-radius: 50%;
+    border: none;
+}
+
+/* -------- NAVBER-SECTION-COMPLETE -------- */
