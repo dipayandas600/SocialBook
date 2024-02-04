@@ -1,0 +1,13 @@
+/* ======== HEADER-SECTION-START ======== */
+
+@media screen and (max-width: 1634px){
+    .navber-section nav{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 1254px){
+    .navber-section nav .meddle .search-box input{
+        padding: 8px 88px 8px 88px;
+    }
+}

@@ -15,7 +15,7 @@
 .navber-section nav{
     max-width: 80vw;
     margin: auto;
-    height: 44px;
+    height: 54.44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,14 +28,14 @@
 }
 
 .navber-section nav .meddle .search-box input{
-    padding: 4px 216px 4px 216px;
+    padding: 8px 216px 8px 216px;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
     border: none;
 }
 
 .navber-section nav .meddle .search-box .search-button{
-    padding: 4px 16px 4px 16px;
+    padding: 8px 16px 8px 16px;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     border: none;
@@ -52,7 +52,7 @@
 }
 
 .navber-section nav .right-side .login-and-signup{
-    padding: 4px 16px 4px 16px;
+    padding: 8px 16px 8px 16px;
     border-radius: 16px;
     border: none;
 }
@@ -63,7 +63,7 @@
 }
 
 .navber-section nav .right-side .profile-image{
-    padding: 4px 16px 4px 16px;
+    padding: 8px 8px 8px 8px;
     border-radius: 50%;
     border: none;
 }
