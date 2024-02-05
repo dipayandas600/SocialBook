@@ -11,3 +11,24 @@
         padding: 8px 88px 8px 88px;
     }
 }
+
+@media screen and (max-width: 954px){
+    .navber-section nav .meddle .search-box input{
+        padding: 8px 34px 8px 34px;
+    }
+
+    .navber-section nav .right-side{
+        gap: 34px;
+    }
+}
+
+@media screen and (max-width: 754px){
+    .navber-section nav .meddle .search-box input{
+        display: none;
+    }
+
+    .navber-section nav .meddle .search-box .search-button{
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+}
