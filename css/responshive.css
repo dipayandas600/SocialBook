@@ -23,6 +23,9 @@
 }
 
 @media screen and (max-width: 754px){
+    .navber-section nav .left-side .logo h1{
+        font-size: 26px;
+    }
     .navber-section nav .meddle .search-box input{
         display: none;
     }
@@ -30,6 +33,34 @@
     .navber-section nav .meddle .search-box .search-button{
         border-top-left-radius: 16px;
         border-bottom-left-radius: 16px;
+        margin: 0 0 0 254px;
+    }
+
+    .navber-section nav .right-side{
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 716px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 248px;
+    }
+}
+
+@media screen and (max-width: 696px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 226px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .navber-section nav .meddle .search-box .search-button{
         margin: 0 0 0 188px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 116px;
     }
 }
