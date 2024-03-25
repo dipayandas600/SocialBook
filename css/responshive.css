@@ -76,3 +76,21 @@
         margin: 0 0 0 126px;
     }
 }
+
+@media screen and (max-width: 578px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 116px;
+    }
+}
+
+@media screen and (max-width: 558px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 96px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 88px;
+    }
+}
