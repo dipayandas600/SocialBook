@@ -64,3 +64,15 @@
         margin: 0 0 0 154px;
     }
 }
+
+@media screen and (max-width: 626px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 134px;
+    }
+}
+
+@media screen and (max-width: 588px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 126px;
+    }
+}
