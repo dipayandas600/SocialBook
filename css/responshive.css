@@ -48,7 +48,23 @@
 }
 
 @media screen and (max-width: 696px){
+    .navber-section nav{
+        height: 44px;
+    }
+
+    .navber-section nav .right-side{
+        gap: 8px;
+    }
+
+    .navber-section nav .right-side .login-and-signup{
+        padding: 6px 16px 6px 16px;
+    }
+
+    .navber-section nav .right-side .profile-image{
+        padding: 6px 6px 6px 6px;
+    }
     .navber-section nav .meddle .search-box .search-button{
+        padding: 6px 16px 6px 16px;
         margin: 0 0 0 226px;
     }
 }
