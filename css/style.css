@@ -64,8 +64,8 @@
 
 .navber-section nav .right-side .profile-image{
     padding: 8px 8px 8px 8px;
-    border-radius: 50px;
-    border: none;
+    border-radius: 26px;
+    border-color: blue;
 }
 
 /* -------- NAVBER-SECTION-COMPLETE -------- */

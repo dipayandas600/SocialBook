@@ -25,6 +25,7 @@
 @media screen and (max-width: 754px){
     .navber-section nav .left-side .logo h1{
         font-size: 26px;
+        letter-spacing: 2px;
     }
     .navber-section nav .meddle .search-box input{
         display: none;
@@ -47,6 +48,12 @@
     }
 }
 
+@media screen and (max-width: 706px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 244px;
+    }
+}
+
 @media screen and (max-width: 696px){
     .navber-section nav{
         height: 44px;
@@ -61,7 +68,7 @@
     }
 
     .navber-section nav .right-side .profile-image{
-        padding: 6px 6px 6px 6px;
+        padding: 4px 4px 4px 4px;
     }
     .navber-section nav .meddle .search-box .search-button{
         padding: 6px 16px 6px 16px;
@@ -108,5 +115,17 @@
 @media screen and (max-width: 540px){
     .navber-section nav .meddle .search-box .search-button{
         margin: 0 0 0 88px;
+    }
+}
+
+@media screen and (max-width: 496px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 78px;
+    }
+}
+
+@media screen and (max-width: 488px){
+    .navber-section nav .meddle .search-box .search-button{
+        margin: 0 0 0 68px;
     }
 }
