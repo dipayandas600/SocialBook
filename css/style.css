@@ -69,3 +69,14 @@
 }
 
 /* -------- NAVBER-SECTION-COMPLETE -------- */
+
+/* ======== BODY-SECTION-START ======== */
+
+body{
+  background-color: whitesmoke;
+}
+
+.body-section{
+  max-width: 80vw;
+  margin: 0px auto;
+}
