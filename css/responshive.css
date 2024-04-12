@@ -4,6 +4,14 @@
   .navber-section nav {
     max-width: 95vw;
   }
+  
+  .body-section{
+    max-width: 95vw;
+  }
+  
+  .body-section .menu-list .menu ul{
+    gap: 334px;
+  }
 }
 
 @media screen and (max-width: 1254px) {

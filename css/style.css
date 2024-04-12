@@ -120,10 +120,11 @@ body{
 .body-section .menu-list .menu ul li{
   list-style: none;
   letter-spacing: 2px;
+  font-size: 16px;
 }
 
 .body-section .menu-list .menu ul .active{
-  background-color: rgba(0, 154, 234, 1);
+  background-color: var(--button-color);
   padding: 10px 54px 10px 54px;
   border-radius: 16px;
   color: white;
