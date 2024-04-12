@@ -1,5 +1,7 @@
 /* ======== HEADER-SECTION-START ======== */
 
+::root{}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -70,6 +72,8 @@
 
 /* -------- NAVBER-SECTION-COMPLETE -------- */
 
+/* ======== HEADER-SECTION-COMPLETE ======== */
+
 /* ======== BODY-SECTION-START ======== */
 
 body{
@@ -86,6 +90,7 @@ body{
 .body-section .menu-list .menu ul{
   background-color: white;
   height: 44px;
+  margin: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,4 +101,11 @@ body{
 .body-section .menu-list .menu ul li{
   list-style: none;
   letter-spacing: 2px;
+}
+
+.body-section .menu-list .menu ul .active{
+  background-color: rgba(0, 154, 234, 1);
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  color: white;
 }
