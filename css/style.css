@@ -149,8 +149,17 @@ body{
 }
 
 .right-side-meddle-left-side .right-side .notification .notification-list ul li{
+  list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
+  letter-spacing: 2px;
+  padding: 16px 0 16px 0;
+}
+
+.right-side-meddle-left-side .right-side .notification .notification-list .image{
+  padding: 8px 8px 8px 8px;
+  border-radius: 16px;
+  border-color: var(--border-color);
 }
