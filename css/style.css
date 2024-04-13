@@ -147,3 +147,10 @@ body{
   text-align: center;
   padding: 26px 0 26px 0;
 }
+
+.right-side-meddle-left-side .right-side .notification .notification-list ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
