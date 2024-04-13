@@ -129,3 +129,21 @@ body{
   border-radius: 16px;
   color: white;
 }
+
+/* -------- MENU-LIST-COMPLETE -------- */
+
+/* -------- RIGHT-SiDE-MEDDLE-LEFT-SIDE-START -------- */
+
+.right-side-meddle-left-side .right-side{
+  background-color: white;
+  width: 288px;
+  border-radius: 16px;
+}
+
+.right-side-meddle-left-side .right-side .notification h1{
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 26px 0 26px 0;
+}
