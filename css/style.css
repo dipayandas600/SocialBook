@@ -163,3 +163,7 @@ body{
   border-radius: 16px;
   border-color: var(--border-color);
 }
+
+.right-side-meddle-left-side .right-side .notification .notification-list .notification-text{
+  font-weight: bold;
+}
