@@ -113,7 +113,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 280px;
+  gap: 296px;
   border-radius: 16px;
 }
 
@@ -123,12 +123,12 @@ body{
   font-size: 26px;
 }
 
-.body-section .menu-list .menu ul .active{
+/* .body-section .menu-list .menu ul .active{
   background-color: var(--button-color);
   padding: 10px 54px 10px 54px;
   border-radius: 16px;
   color: white;
-}
+} */
 
 /* -------- MENU-LIST-COMPLETE -------- */
 
@@ -136,6 +136,7 @@ body{
 
 .right-side-meddle-left-side .right-side{
   background-color: white;
+  height: 688px;
   width: 288px;
   border-radius: 16px;
 }
