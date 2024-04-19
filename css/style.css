@@ -177,3 +177,14 @@ body{
 }
 
 /* -------- RIGHT-SIDE-COMPLETE -------- */
+
+/* -------- LEFT-SIDE-START -------- */
+
+.left-side .friends{
+  background-color: white;
+  border-radius: 16px;
+}
+
+.left-side .friends .friends-text{
+  text-align: center;
+}
