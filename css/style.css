@@ -134,6 +134,13 @@ body{
 
 /* -------- RIGHT-SiDE-MEDDLE-LEFT-SIDE-START -------- */
 
+.right-side-meddle-left-side{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -------- RIGHT-SIDE-START -------- */
+
 .right-side-meddle-left-side .right-side{
   background-color: white;
   height: 688px;
@@ -168,3 +175,5 @@ body{
 .right-side-meddle-left-side .right-side .notification .notification-list .notification-text{
   font-weight: bold;
 }
+
+/* -------- RIGHT-SIDE-COMPLETE -------- */
