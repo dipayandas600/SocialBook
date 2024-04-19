@@ -182,9 +182,19 @@ body{
 
 .left-side .friends{
   background-color: white;
+  height: 688px;
+  width: 288px;
   border-radius: 16px;
 }
 
 .left-side .friends .friends-text{
+  font-size: 26px;
+  font-weight: bold;
   text-align: center;
+  letter-spacing: 2px;
+  padding: 26px 0 26px 0;
+}
+
+.left-side .friends .friends-search-box{
+  align-items: center;
 }
