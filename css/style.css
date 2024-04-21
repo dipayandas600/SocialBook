@@ -195,6 +195,6 @@ body{
   padding: 26px 0 26px 0;
 }
 
-.left-side .friends .friends-search-box{
+.left-side .friends .friends-search-box input{
   align-items: center;
 }
