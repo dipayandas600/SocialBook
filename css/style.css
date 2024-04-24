@@ -202,6 +202,27 @@ body{
   padding: 26px 0 26px 0;
 }
 
+.left-side .friends .friends-search-box{
+  display: flex;
+  justify-content: center;
+}
+
 .left-side .friends .friends-search-box input{
-  align-items: center;
+  padding: 8px 0 8px 0;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.left-side .friends .friends-search-box ::placeholder{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.left-side .friends .friends-search-box #search-button{
+  padding: 0 8px 0 8px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: none;
+  background-color: var(--button-color);
+  color: var(--fonts-border-icons-color);
 }
