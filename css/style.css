@@ -21,8 +21,9 @@
 
 /* -------- NAVBER-SECTION-START -------- */
 
-.navber-section nav{
+.navber-section .navber{
   max-width: 80vw;
+  /* overflow: hidden; */
   margin: auto;
   height: 54.44px;
   display: flex;
@@ -30,20 +31,26 @@
   align-items: center;
 }
 
-.navber-section nav .left-side .logo h1{
+/* .sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.navber-section .navber .left-side .logo h1{
   font-size: 34px;
   color: var(--fonts-border-icons-color);
   letter-spacing: 4px;
 }
 
-.navber-section nav .meddle .search-box input{
+.navber-section .navber .meddle .search-box input{
   padding: 8px 216px 8px 216px;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
   border: none;
 }
 
-.navber-section nav .meddle .search-box .search-button{
+.navber-section .navber .meddle .search-box .search-button{
   padding: 8px 16px 8px 16px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
@@ -51,39 +58,39 @@
   border: none;
 }
 
-.navber-section nav .meddle .search-box .search-button:hover{
+.navber-section .navber .meddle .search-box .search-button:hover{
   background-color: var(--hover-color);
   transition: all 0.4ms;
 }
 
-.navber-section nav .meddle .search-box a{
+.navber-section .navber .meddle .search-box a{
   text-decoration: none;
   color: var(--fonts-border-icons-color);
 }
 
-.navber-section nav .right-side{
+.navber-section .navber .right-side{
   display: flex;
   gap: 88px;
 }
 
-.navber-section nav .right-side .login-and-signup{
+.navber-section .navber .right-side .login-and-signup{
   padding: 8px 16px 8px 16px;
   border-radius: 16px;
   background-color: var(--button-color);
   border: none;
 }
 
-.navber-section nav .right-side .login-and-signup:hover{
+.navber-section .navber .right-side .login-and-signup:hover{
   background-color: var(--hover-color);
   transition: all 0.4ms;
 }
 
-.navber-section nav .right-side a{
+.navber-section .navber .right-side a{
   text-decoration: none;
   color: var(--fonts-border-icons-color);
 }
 
-.navber-section nav .right-side .profile-image{
+.navber-section .navber .right-side .profile-image{
   padding: 8px 8px 8px 8px;
   border-radius: 26px;
   border-color: var(--border-color);
