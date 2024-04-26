@@ -23,7 +23,7 @@
 
 .navber-section .navber{
   max-width: 80vw;
-  /* overflow: hidden; */
+  overflow: hidden;
   margin: auto;
   height: 54.44px;
   display: flex;
@@ -31,11 +31,11 @@
   align-items: center;
 }
 
-/* .sticky{
+.sticky{
   position: fixed;
   top: 0;
   width: 100%;
-} */
+}
 
 .navber-section .navber .left-side .logo h1{
   font-size: 34px;
@@ -225,4 +225,11 @@ body{
   border: none;
   background-color: var(--button-color);
   color: var(--fonts-border-icons-color);
+}
+
+.left-side .friends .all-friends-active-now{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  gap: 26px;
 }
