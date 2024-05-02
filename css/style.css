@@ -244,3 +244,22 @@ body{
 .left-side .friends .all-friends-active-now #all-friends-text{
   color: var(--fonts-border-icons-color);
 }
+
+.left-side .friends .all-friends-active-now .active-now{
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  border: none;
+}
+
+.left-side .friends .friend-list{
+  display: flex;
+  justify-content: center;
+}
+
+.left-side .friends .friend-list #all-friends ul li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: 2px;
+}
