@@ -17,249 +17,43 @@
 
 .header-section{
   background-color: var(--header-background-color);
-}
-
-/* -------- NAVBER-SECTION-START -------- */
-
-.navber-section .navber{
-  max-width: 80vw;
-  overflow: hidden;
-  margin: auto;
-  height: 54.44px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.sticky{
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-.navber-section .navber .left-side .logo h1{
-  font-size: 34px;
-  color: var(--fonts-border-icons-color);
-  letter-spacing: 4px;
-}
+/* ==== NAVBER-SECTION-START ==== */
 
-.navber-section .navber .meddle .search-box input{
-  padding: 8px 216px 8px 216px;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border: none;
-}
-
-.navber-section .navber .meddle .search-box .search-button{
-  padding: 8px 16px 8px 16px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
-  background-color: var(--button-color);
-  border: none;
-}
-
-.navber-section .navber .meddle .search-box .search-button:hover{
-  background-color: var(--hover-color);
-  transition: all 0.4ms;
-}
-
-.navber-section .navber .meddle .search-box a{
-  text-decoration: none;
-  color: var(--fonts-border-icons-color);
-}
-
-.navber-section .navber .right-side{
+.navber-section .navber-1{
   display: flex;
-  gap: 88px;
-}
-
-.navber-section .navber .right-side .login-and-signup{
-  padding: 8px 16px 8px 16px;
-  border-radius: 16px;
-  background-color: var(--button-color);
-  border: none;
-}
-
-.navber-section .navber .right-side .login-and-signup:hover{
-  background-color: var(--hover-color);
-  transition: all 0.4ms;
-}
-
-.navber-section .navber .right-side a{
-  text-decoration: none;
-  color: var(--fonts-border-icons-color);
-}
-
-.navber-section .navber .right-side .profile-image{
-  padding: 8px 8px 8px 8px;
-  border-radius: 26px;
-  border-color: var(--border-color);
-}
-
-/* -------- NAVBER-SECTION-COMPLETE -------- */
-
-/* ======== HEADER-SECTION-COMPLETE ======== */
-
-/* ======== BODY-SECTION-START ======== */
-
-body{
-  background-color: var(--body-color);
-}
-
-.body-section{
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
   max-width: 80vw;
   margin: auto;
 }
 
-/* -------- MENU-LIST-START -------- */
+.navber-section .navber-1 .logo{
+  font-size: 34px;
+  color: aliceblue;
+  letter-spacing: 4px;
+}
 
-.body-section .menu-list .menu ul{
-  background-color: white;
-  height: 54.44px;
-  margin: 8px;
+.navber-section .navber-1 .search-box{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 296px;
-  border-radius: 16px;
 }
 
-.body-section .menu-list .menu ul li{
-  list-style: none;
-  letter-spacing: 2px;
-  font-size: 26px;
-}
-
-/* .body-section .menu-list .menu ul .active{
-  background-color: var(--button-color);
-  padding: 10px 54px 10px 54px;
-  border-radius: 16px;
-  color: white;
-} */
-
-/* -------- MENU-LIST-COMPLETE -------- */
-
-/* -------- RIGHT-SiDE-MEDDLE-LEFT-SIDE-START -------- */
-
-.right-side-meddle-left-side{
-  display: flex;
-  justify-content: space-between;
-}
-
-/* -------- RIGHT-SIDE-START -------- */
-
-.right-side-meddle-left-side .right-side{
-  background-color: white;
-  height: 688px;
-  width: 288px;
-  border-radius: 16px;
-}
-
-.right-side-meddle-left-side .right-side .notification h1{
-  font-size: 26px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  text-align: center;
-  padding: 26px 0 26px 0;
-}
-
-.right-side-meddle-left-side .right-side .notification .notification-list ul li{
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  letter-spacing: 2px;
-  padding: 16px 0 16px 0;
-}
-
-.right-side-meddle-left-side .right-side .notification .notification-list .image{
-  padding: 8px 8px 8px 8px;
-  border-radius: 16px;
-  border-color: var(--border-color);
-}
-
-.right-side-meddle-left-side .right-side .notification .notification-list .notification-text{
-  font-weight: bold;
-}
-
-/* -------- RIGHT-SIDE-COMPLETE -------- */
-
-/* -------- LEFT-SIDE-START -------- */
-
-.left-side .friends{
-  background-color: white;
-  height: 688px;
-  width: 288px;
-  border-radius: 16px;
-}
-
-.left-side .friends .friends-text{
-  font-size: 26px;
-  font-weight: bold;
-  text-align: center;
-  letter-spacing: 2px;
-  padding: 26px 0 26px 0;
-}
-
-.left-side .friends .friends-search-box{
-  display: flex;
-  justify-content: center;
-}
-
-.left-side .friends .friends-search-box input{
-  padding: 8px 0 8px 0;
+.navber-section .navber-1 .search-box input{
+  padding: 10px 216px 10px 216px;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
+  border: none;
 }
 
-.left-side .friends .friends-search-box ::placeholder{
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.left-side .friends .friends-search-box #search-button{
-  padding: 0 8px 0 8px;
+.navber-section .navber-1 .search-box .search-button{
+  padding: 10px 10px 10px 10px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
   border: none;
   background-color: var(--button-color);
-  color: var(--fonts-border-icons-color);
-}
-
-.left-side .friends .all-friends-active-now{
-  display: flex;
-  justify-content: center;
-  margin: 10px 0 10px 0;
-  gap: 26px;
-}
-
-.left-side .friends .all-friends-active-now .all-friends{
-  padding: 8px 16px 8px 16px;
-  border-radius: 16px;
-  border: none;
-  background-color: var(--button-color);
-}
-
-.left-side .friends .all-friends-active-now #all-friends-text{
-  color: var(--fonts-border-icons-color);
-}
-
-.left-side .friends .all-friends-active-now .active-now{
-  padding: 8px 16px 8px 16px;
-  border-radius: 16px;
-  border: none;
-}
-
-.left-side .friends .friend-list{
-  display: flex;
-  justify-content: center;
-}
-
-.left-side .friends .friend-list #all-friends ul li{
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  letter-spacing: 2px;
 }
