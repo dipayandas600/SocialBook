@@ -1,0 +1,17 @@
+@media screen and (max-width: 1634px){
+    .header-section .navber-section .navber-1{
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 1088px){
+    .header-section .navber-section .navber-1 .search-box input{
+        padding: 10px 188px 10px 188px;
+    }
+}
+
+@media screen and (max-width: 954px){
+    .header-section .navber-section .navber-1 .search-box input{
+        padding: 10px 154px 10px 154px;
+    }
+}

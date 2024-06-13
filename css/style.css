@@ -50,10 +50,51 @@
   border: none;
 }
 
+.navber-section .navber-1 .search-box ::placeholder{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.navber-section .navber-1 .search-box .search-button{
+  display: flex;
+}
+
 .navber-section .navber-1 .search-box .search-button{
   padding: 10px 10px 10px 10px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
   border: none;
   background-color: var(--button-color);
+}
+
+.navber-section .navber-1 .search-box .search-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
+}
+
+.navber-section .navber-1 .user-and-profile{
+  display: flex;
+  gap: 44px;
+}
+
+.navber-section .navber-1 .user-and-profile .user-button{
+  padding: 4px 4px 4px 4px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--button-color);
+}
+
+.navber-section .navber-1 .user-and-profile .user-icon{
+  display: flex;
+  background-color: var(--button-color);
+  border-radius: 50%;
+}
+
+.navber-section .navber-1 .user-and-profile .profile-button{
+  border-radius: 16px;
+}
+
+.navber-section .navber-1 .user-and-profile .profile-icon{
+  display: flex;
+  border-radius: 50%;
 }
