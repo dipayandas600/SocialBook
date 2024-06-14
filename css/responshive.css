@@ -15,3 +15,15 @@
         padding: 10px 154px 10px 154px;
     }
 }
+
+@media screen and (max-width: 916px){
+    .header-section .navber-section .navber-1 .search-box input{
+        display: none;
+    }
+
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        margin: 0 0 0 454px;
+    }
+}
