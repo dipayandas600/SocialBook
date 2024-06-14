@@ -27,3 +27,74 @@
         margin: 0 0 0 454px;
     }
 }
+
+@media screen and (max-width: 854px){
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 344px;
+    }
+}
+
+@media screen and (max-width: 744px){
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 288px;
+    }
+
+    .header-section .navber-section .navber-1 .user-and-profile{
+        gap: 16px;
+    }
+}
+
+@media screen and (max-width: 688px){
+    .header-section .navber-section .navber-1{
+        height: 54px;
+    }
+
+    .header-section .navber-section .navber-1 .logo{
+        font-size: 26px;
+    }
+
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 216px;
+    }
+}
+
+@media screen and (max-width: 544px){
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 188px;
+    }
+}
+
+@media screen and (max-width: 516px){
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 154px;
+    }
+}
+
+@media screen and (max-width: 478px){
+    .header-section .navber-section .navber-1{
+        height: 44px;
+    }
+
+    .header-section .navber-section .navber-1 .logo{
+        font-size: 16px;
+    }
+
+    .header-section .navber-section .navber-1 .user-and-profile{
+        gap: 8px;
+    }
+
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 116px;
+        padding: 8px 8px 8px 8px;
+    }
+
+    .header-section .navber-section .navber-1 .user-and-profile .user-button{
+        padding: 2px 2px 2px 2px;
+    }
+}
+
+@media screen and (max-width: 388px){
+    .header-section .navber-section .navber-1 .search-box .search-button{
+        margin: 0 0 0 88px;
+    }
+}
