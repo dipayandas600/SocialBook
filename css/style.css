@@ -72,29 +72,45 @@
   transition: all 0.8ms;
 }
 
+.navber-section .navber-1 .search-box #search-icon{
+  color: aliceblue;
+}
+
 .navber-section .navber-1 .user-and-profile{
   display: flex;
   gap: 44px;
 }
 
-.navber-section .navber-1 .user-and-profile .user-button{
-  padding: 4px 4px 4px 4px;
+.navber-section .navber-1 .user-and-profile #user-button{
   border-radius: 50%;
   border: none;
   background-color: var(--button-color);
 }
 
-.navber-section .navber-1 .user-and-profile .user-icon{
+.navber-section .navber-1 .user-and-profile #user-icon{
   display: flex;
-  background-color: var(--button-color);
+  /* background-color: var(--button-color); */
+  color: aliceblue;
   border-radius: 50%;
 }
 
-.navber-section .navber-1 .user-and-profile .profile-button{
+.navber-section .navber-1 .user-and-profile #profile-button{
   border-radius: 16px;
+  border: none;
 }
 
-.navber-section .navber-1 .user-and-profile .profile-icon{
+.navber-section .navber-1 .user-and-profile #profile-icon{
   display: flex;
   border-radius: 50%;
+}
+
+/* ==== NAVBER-SECTION-COMPLETE ==== */
+
+/* ======== HEADER-SECTION-COMPLETE ======== */
+
+/* ======== BODY-SECTION-START ======== */
+
+.body-section{
+  max-width: 80vw;
+  margin: 8px auto;
 }
