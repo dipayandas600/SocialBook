@@ -81,10 +81,17 @@
   gap: 44px;
 }
 
-.navber-section .navber-1 .user-and-profile #user-button{
+.navber-section .navber-1 .user-and-profile .user-button{
+  padding: 0 8px 0 8px;
   border-radius: 50%;
   border: none;
   background-color: var(--button-color);
+  transition: all 0.8ms;
+}
+
+.navber-section .navber-1 .user-and-profile .user-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
 }
 
 .navber-section .navber-1 .user-and-profile #user-icon{
