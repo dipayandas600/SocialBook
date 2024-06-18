@@ -1,5 +1,13 @@
+/* ===========================================
+              INDEX-PAGE-START
+=========================================== */
+
 @media screen and (max-width: 1634px){
     .header-section .navber-section .navber-1{
+        max-width: 95vw;
+    }
+
+    .body-section{
         max-width: 95vw;
     }
 }
@@ -7,6 +15,11 @@
 @media screen and (max-width: 1088px){
     .header-section .navber-section .navber-1 .search-box input{
         padding: 10px 188px 10px 188px;
+    }
+
+    .body-section .menu-list ul{
+        display: flex;
+        gap: 278px;
     }
 }
 
@@ -98,3 +111,7 @@
         margin: 0 0 0 88px;
     }
 }
+
+/* ===============================================
+               INDEX-PAGE-COMPLETE
+=============================================== */

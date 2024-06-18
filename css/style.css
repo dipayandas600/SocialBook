@@ -117,7 +117,33 @@
 
 /* ======== BODY-SECTION-START ======== */
 
+body{
+  background-color: var(--body-color);
+}
+
 .body-section{
   max-width: 80vw;
-  margin: 8px auto;
+  margin: 68px auto;
+}
+
+/* ==== MENU-LIST-START ==== */
+
+.menu-list{
+  background-color: white;
+  border-radius: 16px;
+}
+
+.menu-list ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  gap: 288px;
+}
+
+.menu-list ul li{
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  font-size: 26px;
 }
