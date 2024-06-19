@@ -79,6 +79,10 @@ body {
     text-align: left;
 }
 
+#form-group{
+    display: flex;
+}
+
 .form-group label {
     display: block;
     margin-bottom: 5px;
