@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+
+    <!-- CSS-LINKS -->
+    <link rel="stylesheet" href="./css/user.css">
+</head>
+<body>
+    <!-- FROM-SECTION-START -->
+    <section class="from-section">
+        <div class="form-container">
+            <div class="form-toggle">
+                <button id="login-toggle" onclick="showLogin()">Login</button>
+                <button id="signup-toggle" onclick="showSignup()">Signup</button>
+            </div>
+            <form id="login-form" class="form">
+                <h2>Login</h2>
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit">Login</button>
+                <div id="login-error" class="error"></div>
+            </form>
+            <form id="signup-form" class="form" style="display: none;">
+                <h2>Signup</h2>
+                <div class="form-group">
+                    <label for="signup-name">Name</label>
+                    <input type="text" id="signup-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-confirm-password">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" required>
+                </div>
+                <button type="submit">Signup</button>
+                <div id="signup-error" class="error"></div>
+            </form>
+        </div>
+    </section>
+    <!-- FROM-SECTION-END -->
+
+    <!-- JS-LINKS -->
+    <script src="./js/user.js"></script>
+</body>
+</html>
