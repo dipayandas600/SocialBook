@@ -7,15 +7,21 @@
 
     <!-- CSS-LINKS -->
     <link rel="stylesheet" href="./css/user.css">
+    <link rel="stylesheet" href="./css/responshive.css">
 </head>
 <body>
     <!-- FROM-SECTION-START -->
     <section class="from-section">
+
         <div class="form-container">
+
+            <h1 class="text">WELLCOME TO SOCIALBOOK</h1>
+
             <div class="form-toggle">
                 <button id="login-toggle" onclick="showLogin()">Login</button>
                 <button id="signup-toggle" onclick="showSignup()">Signup</button>
             </div>
+
             <form id="login-form" class="form">
                 <h2>Login</h2>
                 <div class="form-group">
@@ -29,6 +35,7 @@
                 <button type="submit">Login</button>
                 <div id="login-error" class="error"></div>
             </form>
+
             <form id="signup-form" class="form" style="display: none;">
                 <h2>Signup</h2>
                 <div class="form-group">
@@ -50,7 +57,9 @@
                 <button type="submit">Signup</button>
                 <div id="signup-error" class="error"></div>
             </form>
+
         </div>
+
     </section>
     <!-- FROM-SECTION-END -->
 

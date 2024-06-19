@@ -24,32 +24,46 @@ body {
 
 .form-container {
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 26px;
+    border-radius: 16px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 400px;
+    width: 488px;
     text-align: center;
+}
+
+.form-container .text{
+    font-size: 26px;
+    margin: 0 0 16px 0;
+    letter-spacing: 2px;
+    color: rgb(63, 216, 255);
 }
 
 .form-toggle {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .form-toggle button {
     background-color: var(--button-color);
     color: aliceblue;
-    padding: 10px 20px;
+    padding: 10px 54px;
     border: none;
     border-radius: 16px;
     cursor: pointer;
-    /* transition: background-color 0.3s ease; */
+    transition: background-color 0.4s ease;
 }
 
 .form-toggle button:hover {
     background-color: var(--hover-color);
+}
+
+.form-toggle #login-toggle{
+    font-size: 16px;
+}
+
+.form-toggle #signup-toggle{
+    font-size: 16px;
 }
 
 .form {
@@ -72,30 +86,30 @@ body {
 
 .form-group input {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: border-color 0.3s ease;
+    padding: 16px;
+    border: 2px solid #ccc;
+    border-radius: 16px;
+    transition: border-color 0.4s ease;
 }
 
 .form-group input:focus {
-    border-color: #333;
+    border-color: var(--border-color);
 }
 
 button[type="submit"] {
     width: 100%;
     padding: 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #333;
-    color: white;
+    border-radius: 16px;
+    background-color: var(--button-color);
+    color: aliceblue;
     font-size: 1em;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.4s ease;
 }
 
 button[type="submit"]:hover {
-    background-color: #555;
+    background-color: var(--hover-color);
 }
 
 .error {
