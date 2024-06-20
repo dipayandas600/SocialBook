@@ -1,0 +1,114 @@
+:root{
+    --header-background-color: rgb(0,78,180);
+    --fonts-border-icons-color: rgb(240,248,255);
+    --body-color: rgb(245,245,245);
+    --button-color: rgb(0, 158, 231);
+    --hover-color: rgb(56,163,255);
+    --border-color: rgb(0,78,180);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section{
+    background-color: var(--header-background-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* ==== NAVBER-SECTION-START ==== */
+
+.navber-section .navber-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.navber-section .navber-1 .logo{
+  font-size: 34px;
+  color: aliceblue;
+  letter-spacing: 4px;
+}
+
+.navber-section .navber-1 .search-box{
+  display: flex;
+}
+
+.navber-section .navber-1 .search-box input{
+  padding: 10px 216px 10px 216px;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: none;
+}
+
+.navber-section .navber-1 .search-box ::placeholder{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.navber-section .navber-1 .search-box .search-button{
+  display: flex;
+}
+
+.navber-section .navber-1 .search-box .search-button{
+  padding: 10px 10px 10px 10px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: none;
+  background-color: var(--button-color);
+}
+
+.navber-section .navber-1 .search-box .search-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
+}
+
+.navber-section .navber-1 .search-box #search-icon{
+  color: aliceblue;
+}
+
+.navber-section .navber-1 .user-and-profile{
+  display: flex;
+  gap: 44px;
+}
+
+.navber-section .navber-1 .user-and-profile .user-button{
+  padding: 0 8px 0 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--button-color);
+  transition: all 0.8ms;
+}
+
+.navber-section .navber-1 .user-and-profile .user-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8ms;
+}
+
+.navber-section .navber-1 .user-and-profile #user-icon{
+  display: flex;
+  /* background-color: var(--button-color); */
+  color: aliceblue;
+  border-radius: 50%;
+}
+
+.navber-section .navber-1 .user-and-profile #profile-button{
+  border-radius: 16px;
+  border: none;
+}
+
+.navber-section .navber-1 .user-and-profile #profile-icon{
+  display: flex;
+  border-radius: 50%;
+}
+
+/* ==== NAVBER-SECTION-COMPLETE ==== */
+
+/* ======== HEADER-SECTION-COMPLETE ======== */
