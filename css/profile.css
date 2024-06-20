@@ -13,102 +13,46 @@
     box-sizing: border-box;
 }
 
-.header-section{
-    background-color: var(--header-background-color);
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
-/* ==== NAVBER-SECTION-START ==== */
-
-.navber-section .navber-1{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
+.body-section{
   max-width: 80vw;
-  margin: auto;
+  margin: 68px auto;
 }
 
-.navber-section .navber-1 .logo{
-  font-size: 34px;
-  color: aliceblue;
-  letter-spacing: 4px;
-}
-
-.navber-section .navber-1 .search-box{
-  display: flex;
-}
-
-.navber-section .navber-1 .search-box input{
-  padding: 10px 216px 10px 216px;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border: none;
-}
-
-.navber-section .navber-1 .search-box ::placeholder{
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.navber-section .navber-1 .search-box .search-button{
-  display: flex;
-}
-
-.navber-section .navber-1 .search-box .search-button{
-  padding: 10px 10px 10px 10px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border: none;
-  background-color: var(--button-color);
-}
-
-.navber-section .navber-1 .search-box .search-button:hover{
-  background-color: var(--hover-color);
-  transition: all 0.8ms;
-}
-
-.navber-section .navber-1 .search-box #search-icon{
-  color: aliceblue;
-}
-
-.navber-section .navber-1 .user-and-profile{
-  display: flex;
-  gap: 44px;
-}
-
-.navber-section .navber-1 .user-and-profile .user-button{
-  padding: 0 8px 0 8px;
-  border-radius: 50%;
-  border: none;
-  background-color: var(--button-color);
-  transition: all 0.8ms;
-}
-
-.navber-section .navber-1 .user-and-profile .user-button:hover{
-  background-color: var(--hover-color);
-  transition: all 0.8ms;
-}
-
-.navber-section .navber-1 .user-and-profile #user-icon{
-  display: flex;
-  /* background-color: var(--button-color); */
-  color: aliceblue;
-  border-radius: 50%;
-}
-
-.navber-section .navber-1 .user-and-profile #profile-button{
+.body-section .profile-section .profile-header{
+  background-image: url(/public/images/profile-page/slider1.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 344px;
   border-radius: 16px;
-  border: none;
 }
 
-.navber-section .navber-1 .user-and-profile #profile-icon{
-  display: flex;
+.body-section .profile-section .profile-header a{
+  text-decoration: none;
+}
+
+.body-section .profile-section .profile-header .cover-image-button{
+  float: right;
+  margin: 288px 26px 0 0;
+  padding: 8px 16px 8px 16px;
+  border-radius: 16px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.body-section .profile-section .profile-header .cover-image-button:hover{
+  background-color: var(--hover-color);
+  transition: all 0.8s;
+}
+
+.body-section .profile-section .profile-body{
+  background-color: white;
+  height: 288px;
+  border-radius: 16px;
+}
+
+.body-section .profile-section .profile-body .profile-image{
+  display: block;
+  margin: auto;
   border-radius: 50%;
+  border: 4px solid var(--border-color);
 }
-
-/* ==== NAVBER-SECTION-COMPLETE ==== */
-
-/* ======== HEADER-SECTION-COMPLETE ======== */
