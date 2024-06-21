@@ -21,6 +21,18 @@
         display: flex;
         gap: 278px;
     }
+
+    .body-section .profile-section .profile-header{
+        height: 288px;
+    }
+
+    .body-section .profile-section .profile-header .cover-image-button{
+        margin: 226px 26px 0 0;
+    }
+
+    .body-section .profile-section .profile-body{
+        height: 244px;
+    }
 }
 
 @media screen and (max-width: 954px){
