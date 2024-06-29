@@ -127,24 +127,30 @@ body{
   margin: 68px auto;
 }
 
-/* ==== MENU-LIST-START ==== */
-
-.menu-list{
+.right-meddle-left-side .right-side{
   background-color: white;
+  width: 244px;
+  height: 588px;
   border-radius: 16px;
-}
-
-.menu-list ul{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 60px;
-  gap: 288px;
 }
 
-.menu-list ul li{
+.right-meddle-left-side .right-side .notification-text{
+  margin: 16px 0 0 0;
+  letter-spacing: 2px;
+}
+
+.right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
+  align-items: center;
   gap: 8px;
-  list-style: none;
-  font-size: 26px;
+  margin: 26px 0 26px 0;
+}
+
+.right-meddle-left-side .right-side .notification-list .notification-list-group img{
+  border: 2px solid rgb(0, 78, 180);
+  padding: 8px 8px 8px 8px;
+  border-radius: 50%;
 }
