@@ -142,17 +142,19 @@ body{
 
 .right-meddle-left-side .right-side .notification-text{
   font-size: 34px;
+  font-weight: bold;
   margin: 26px 0 0 0;
   letter-spacing: 2px;
 }
 
 .right-meddle-left-side .right-side hr{
   width: 80%;
-  margin: 26px 0 0 0;
+  margin: 16px 0 0 0;
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 8px;
   margin: 16px 0 16px 0;
@@ -165,6 +167,6 @@ body{
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group .all-texts .text-1{
   font-size: 26px;
-  font-weight: bold;
+  font-weight: 488;
   letter-spacing: 2px;
 }
