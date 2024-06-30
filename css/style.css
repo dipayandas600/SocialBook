@@ -13,6 +13,9 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .header-section{
@@ -129,8 +132,8 @@ body{
 
 .right-meddle-left-side .right-side{
   background-color: white;
-  width: 244px;
-  height: 588px;
+  width: 316px;
+  height: 816px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -138,18 +141,30 @@ body{
 }
 
 .right-meddle-left-side .right-side .notification-text{
-  margin: 16px 0 0 0;
+  font-size: 34px;
+  margin: 26px 0 0 0;
   letter-spacing: 2px;
+}
+
+.right-meddle-left-side .right-side hr{
+  width: 80%;
+  margin: 26px 0 0 0;
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
   align-items: center;
   gap: 8px;
-  margin: 26px 0 26px 0;
+  margin: 16px 0 16px 0;
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group img{
-  border: 2px solid rgb(0, 78, 180);
+  border: 2px solid var(--border-color);
   border-radius: 50%;
+}
+
+.right-meddle-left-side .right-side .notification-list .notification-list-group .all-texts .text-1{
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
