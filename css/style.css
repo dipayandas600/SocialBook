@@ -3,7 +3,7 @@
 :root{
   --header-background-color: rgb(0,78,180);
   --fonts-border-icons-color: rgb(240,248,255);
-  --body-color: rgb(245,245,245);
+  --body-color: rgb(226, 240, 248);
   --button-color: rgb(0, 158, 231);
   --hover-color: rgb(56,163,255);
   --border-color: rgb(0,78,180);
@@ -130,10 +130,15 @@ body{
   margin: 68px auto;
 }
 
+.right-meddle-left-side{
+  display: flex;
+  justify-content: space-between;
+}
+
 .right-meddle-left-side .right-side{
   background-color: white;
   width: 316px;
-  height: 816px;
+  height: 744px;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
@@ -154,9 +159,8 @@ body{
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 54px;
   margin: 16px 0 16px 0;
 }
 
@@ -166,7 +170,13 @@ body{
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group .all-texts .text-1{
-  font-size: 26px;
   font-weight: 488;
   letter-spacing: 2px;
+}
+
+.right-meddle-left-side .left-side{
+  background-color: white;
+  width: 316px;
+  height: 744px;
+  border-radius: 16px;
 }
