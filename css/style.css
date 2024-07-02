@@ -86,11 +86,12 @@
 }
 
 .navber-section .navber-1 .user-and-profile .user-button{
-  padding: 0 8px 0 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 10.44px 0 10.44px;
+  background-color: rgb(0, 158, 231);
   border-radius: 50%;
   border: none;
-  background-color: var(--button-color);
-  transition: all 0.8ms;
 }
 
 .navber-section .navber-1 .user-and-profile .user-button:hover{
@@ -102,7 +103,7 @@
   display: flex;
   /* background-color: var(--button-color); */
   color: aliceblue;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .navber-section .navber-1 .user-and-profile #profile-button{
