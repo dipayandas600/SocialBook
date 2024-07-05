@@ -7,3 +7,14 @@
         max-width: 95vw;
     }
 }
+
+@media screen and (max-width: 716px){
+  .header-section .navber-section .navber-1 .user-and-profile .search-box input{
+    display: none;
+  }
+  
+  .header-section .navber-section .navber-1 .user-and-profile .search-box .search-button{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+  }
+}
