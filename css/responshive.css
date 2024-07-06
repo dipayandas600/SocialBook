@@ -9,6 +9,10 @@
 }
 
 @media screen and (max-width: 716px){
+  .header-section .navber-section .navber-1 .user-and-profile{
+    display: flex;
+    gap: 26px;
+  }
   .header-section .navber-section .navber-1 .user-and-profile .search-box input{
     display: none;
   }
