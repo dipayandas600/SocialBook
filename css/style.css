@@ -181,4 +181,35 @@ body{
   width: 316px;
   height: 744px;
   border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-meddle-left-side .left-side .friends-text{
+  font-size: 34px;
+  font-weight: bold;
+  margin: 26px 0 0 0;
+  letter-spacing: 2px;
+}
+
+.right-meddle-left-side .left-side .search-box input{
+  padding: 4px 0 4px 0;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border: none;
+  background-color: whitesmoke;
+}
+
+.right-meddle-left-side .left-side .search-box ::placeholder{
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.right-meddle-left-side .left-side .search-box .search-button{
+  padding: 4px 4px 4px 4px;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  border: none;
+  background-color: var(--button-color);
 }
