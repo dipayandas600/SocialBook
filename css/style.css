@@ -177,6 +177,10 @@ body{
 }
 
 .right-meddle-left-side .meddle{
+  background-color: white;
+}
+
+.right-meddle-left-side .meddle .menu-list{
   display: flex;
 }
 
