@@ -176,12 +176,27 @@ body{
   letter-spacing: 2px;
 }
 
-.right-meddle-left-side .meddle{
+.right-meddle-left-side .meddle .menu-list{
   background-color: white;
+  border-radius: 16px;
 }
 
-.right-meddle-left-side .meddle .menu-list{
+.right-meddle-left-side .meddle .menu-list .navber-links{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 158px;
+  height: 60px;
+}
+
+.right-meddle-left-side .meddle .menu-list .navber-links li{
+  list-style: none;
+}
+
+.right-meddle-left-side .meddle .menu-list .navber-links li a{
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
 }
 
 .right-meddle-left-side .left-side{
