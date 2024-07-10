@@ -176,6 +176,10 @@ body{
   letter-spacing: 2px;
 }
 
+.right-meddle-left-side .meddle{
+  display: flex;
+}
+
 .right-meddle-left-side .left-side{
   background-color: white;
   width: 316px;
