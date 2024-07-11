@@ -127,10 +127,10 @@
         <div class="menu-list">
           
           <ul class="navber-links">
-            <li><a href=""><i class="fas fa-home" id="navber-icon"></i></a></li>
-            <li><a href=""><i class="fas fa-home" id="navber-icon"></i></a></li>
-            <li><a href=""><i class="fas fa-home" id="navber-icon"></i></a></li>
-            <li><a href=""><i class="fas fa-home" id="navber-icon"></i></a></li>
+            <li><a href=""><i class="fa-solid fa-house" id="navber-icon"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-bell" id="navber-icon"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-message" id="navber-icon"></i></a></li>
+            <li><a href=""><i class="fa-regular fa-user" id="navber-icon"></i></a></li>
           </ul>
           
         </div>
@@ -145,86 +145,46 @@
           <input type="text" placeholder="search here"><button class="search-button"><i class="fa-solid fa-magnifying-glass" id="search-icon"></i></button>
         </div>
         
-        <div class="friends-list-button">
-          <button class="all-friends">All Friends</button>
-          <button class="active-now">Active Now</button>
-        </div>
-
-        <div class="friends-list">
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
+        <div class="form-container">
+          <div class="form-toggle">
+              <button id="login-toggle" onclick="showLogin()">Login</button>
+              <button id="signup-toggle" onclick="showSignup()">Signup</button>
           </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-          <div class="friends-list-group">
-            <img src="./public/images/profile-page/slider6.jpg" width="44px">
-            <div class="all-texts">
-              <p class="text-1">User Name</p>
-              <p class="text-2">Lorem ipsum........</p>
-              <p class="text-3">send 8 minutes ago</p>
-            </div>
-          </div>
-
-        </div>
+          <form id="login-form" class="form">
+              <h2>Login</h2>
+              <div class="form-group">
+                  <label for="login-email">Email</label>
+                  <input type="email" id="login-email" required>
+              </div>
+              <div class="form-group">
+                  <label for="login-password">Password</label>
+                  <input type="password" id="login-password" required>
+              </div>
+              <button type="submit">Login</button>
+              <div id="login-error" class="error"></div>
+          </form>
+          <form id="signup-form" class="form" style="display: none;">
+              <h2>Signup</h2>
+              <div class="form-group">
+                  <label for="signup-name">Name</label>
+                  <input type="text" id="signup-name" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-email">Email</label>
+                  <input type="email" id="signup-email" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-password">Password</label>
+                  <input type="password" id="signup-password" required>
+              </div>
+              <div class="form-group">
+                  <label for="signup-confirm-password">Confirm Password</label>
+                  <input type="password" id="signup-confirm-password" required>
+              </div>
+              <button type="submit">Signup</button>
+              <div id="signup-error" class="error"></div>
+          </form>
+      </div>
 
       </div>
       
