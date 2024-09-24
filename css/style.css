@@ -32,12 +32,13 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  max-width: 80vw;
+  max-width: 95vw;
   margin: auto;
 }
 
 .navber-section .navber-1 .logo{
   font-size: 34px;
+  font-weight: bold;
   color: aliceblue;
   letter-spacing: 4px;
   text-decoration: none;
@@ -127,193 +128,27 @@ body{
   background-color: var(--body-color);
 }
 
-.body-section{
-  max-width: 80vw;
-  margin: 68px auto;
-}
-
 .right-meddle-left-side{
   display: flex;
   justify-content: space-between;
+  max-width: 95vw;
+  margin: 68px auto;
 }
 
 .right-meddle-left-side .right-side{
   background-color: white;
-  width: 316px;
-  height: 744px;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 8px 16px 8px 16px;
+  height: 188px;
 }
 
 .right-meddle-left-side .right-side .notification-text{
-  font-size: 34px;
+  font-size: 44px;
   font-weight: bold;
-  margin: 26px 0 0 0;
   letter-spacing: 2px;
-}
-
-.right-meddle-left-side .right-side hr{
-  width: 80%;
-  margin: 16px 0 0 0;
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
-  align-items: center;
-  gap: 54px;
+  gap: 16px;
   margin: 16px 0 16px 0;
-}
-
-.right-meddle-left-side .right-side .notification-list .notification-list-group img{
-  border: 2px solid var(--border-color);
-  border-radius: 50%;
-}
-
-.right-meddle-left-side .right-side .notification-list .notification-list-group .all-texts .text-1{
-  font-weight: 488;
-  letter-spacing: 2px;
-}
-
-.right-meddle-left-side .meddle .menu-list{
-  background-color: white;
-  border-radius: 16px;
-}
-
-.right-meddle-left-side .meddle .menu-list .navber-links{
-  display: flex;
-  align-items: center;
-  gap: 134px;
-  height: 60px;
-  padding: 0 44px 0 44px;
-}
-
-.right-meddle-left-side .meddle .menu-list .navber-links li{
-  list-style: none;
-}
-
-.right-meddle-left-side .meddle .menu-list .navber-links li a{
-  text-decoration: none;
-  color: black;
-  font-size: 26px;
-}
-
-.right-meddle-left-side .left-side{
-  background-color: white;
-  width: 316px;
-  height: 744px;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.right-meddle-left-side .left-side .friends-text{
-  font-size: 34px;
-  font-weight: bold;
-  margin: 26px 0 0 0;
-  letter-spacing: 2px;
-}
-
-.right-meddle-left-side .left-side .search-box input{
-  padding: 4px 0 4px 0;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
-  border: none;
-  background-color: whitesmoke;
-}
-
-.right-meddle-left-side .left-side .search-box ::placeholder{
-  text-align: center;
-  letter-spacing: 2px;
-}
-
-.right-meddle-left-side .left-side .search-box .search-button{
-  padding: 4px 4px 4px 4px;
-  border-top-right-radius: 16px;
-  border-bottom-right-radius: 16px;
-  border: none;
-  background-color: var(--button-color);
-}
-
-.form-container {
-  background-color: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  max-width: 400px;
-  text-align: center;
-}
-
-.form-toggle {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
-}
-
-.form-toggle button {
-  background-color: #e67e22;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.form-toggle button:hover {
-  background-color: #d35400;
-}
-
-.form {
-  display: none;
-}
-
-.form.active {
-  display: block;
-}
-
-.form-group {
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  transition: border-color 0.3s ease;
-}
-
-.form-group input:focus {
-  border-color: #333;
-}
-
-button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #333;
-  color: white;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button[type="submit"]:hover {
-  background-color: #555;
-}
-
-.error {
-  color: red;
-  margin-top: 10px;
 }
