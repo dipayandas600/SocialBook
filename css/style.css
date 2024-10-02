@@ -138,17 +138,23 @@ body{
 .right-meddle-left-side .right-side{
   background-color: white;
   padding: 8px 16px 8px 16px;
-  height: 188px;
+  height: 688px;
+  border-radius: 16px;
 }
 
 .right-meddle-left-side .right-side .notification-text{
-  font-size: 44px;
+  font-size: 34px;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: .88px;
 }
 
 .right-meddle-left-side .right-side .notification-list .notification-list-group{
   display: flex;
   gap: 16px;
   margin: 16px 0 16px 0;
+}
+
+.right-meddle-left-side .right-side .notification-list .notification-list-group .notification-image{
+  border-radius: 50%;
+  border-color: 2px solid var(--border-color);
 }
