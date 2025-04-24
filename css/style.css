@@ -32,7 +32,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  max-width: 95vw;
+  max-width: 48vw;
   margin: auto;
 }
 
@@ -126,35 +126,4 @@
 
 body{
   background-color: var(--body-color);
-}
-
-.right-meddle-left-side{
-  display: flex;
-  justify-content: space-between;
-  max-width: 95vw;
-  margin: 68px auto;
-}
-
-.right-meddle-left-side .right-side{
-  background-color: white;
-  padding: 8px 16px 8px 16px;
-  height: 688px;
-  border-radius: 16px;
-}
-
-.right-meddle-left-side .right-side .notification-text{
-  font-size: 34px;
-  font-weight: bold;
-  letter-spacing: .88px;
-}
-
-.right-meddle-left-side .right-side .notification-list .notification-list-group{
-  display: flex;
-  gap: 16px;
-  margin: 16px 0 16px 0;
-}
-
-.right-meddle-left-side .right-side .notification-list .notification-list-group .notification-image{
-  border-radius: 50%;
-  border-color: 2px solid var(--border-color);
 }
