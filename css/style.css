@@ -47,6 +47,8 @@
 
 .navber-section .navber-1 .search-box{
   display: flex;
+  box-shadow: 0 0 4px 4px purple;
+  border-radius: 16px;
 }
 
 .navber-section .navber-1 .search-box input{
@@ -54,6 +56,7 @@
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
   border: none;
+  background-color: rgb(54, 0, 54);
 }
 
 .navber-section .navber-1 .search-box ::placeholder{
@@ -70,7 +73,7 @@
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
   border: none;
-  background-color: var(--button-color);
+  background-color: rgb(54, 0, 54);
 }
 
 .navber-section .navber-1 .search-box .search-button:hover{
