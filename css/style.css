@@ -4,7 +4,7 @@
   --header-background-color: rgb(0,78,180);
   --fonts-border-icons-color: rgb(240,248,255);
   --body-color: rgb(61, 0, 84);
-  --button-color: rgb(0, 158, 231);
+  --button-color: rgb(34, 0, 34);
   --hover-color: rgb(56,163,255);
   --border-color: rgb(0,78,180);
 }
@@ -40,9 +40,10 @@
 .navber-section .navber-1 .logo{
   font-size: 34px;
   font-weight: bold;
-  color: aliceblue;
+  color: whitesmoke;
   letter-spacing: 4px;
   text-decoration: none;
+  margin: 0 0 0 16px;
 }
 
 .navber-section .navber-1 .search-box{
@@ -56,12 +57,15 @@
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
   border: none;
-  background-color: rgb(54, 0, 54);
+  background-color: rgb(34, 0, 34);
 }
 
 .navber-section .navber-1 .search-box ::placeholder{
   text-align: center;
   letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color: whitesmoke;
 }
 
 .navber-section .navber-1 .search-box .search-button{
@@ -69,11 +73,11 @@
 }
 
 .navber-section .navber-1 .search-box .search-button{
-  padding: 10px 10px 10px 10px;
+  padding: 10px 16px 10px 16px;
   border-top-right-radius: 16px;
   border-bottom-right-radius: 16px;
   border: none;
-  background-color: rgb(54, 0, 54);
+  background-color: rgb(34, 0, 34);
 }
 
 .navber-section .navber-1 .search-box .search-button:hover{
@@ -94,7 +98,8 @@
   display: flex;
   align-items: center;
   padding: 0 10.44px 0 10.44px;
-  background-color: rgb(0, 158, 231);
+  background-color: var(--button-color);
+  box-shadow: 0 0 4px 4px purple;
   border-radius: 50%;
   border: none;
 }
@@ -115,6 +120,8 @@
 .navber-section .navber-1 .user-and-profile #profile-button{
   border-radius: 16px;
   border: none;
+  margin: 0 16px 0 0;
+  box-shadow: 0 0 4px 4px purple;
 }
 
 .navber-section .navber-1 .user-and-profile #profile-icon{
