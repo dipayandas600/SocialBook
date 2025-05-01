@@ -6,7 +6,7 @@
   <title>SocialBook</title>
 
   <!-- CSS-LINKS -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <!-- <link rel="stylesheet" href="./css/style.css" /> -->
   <link rel="stylesheet" href="./css/responshive.css" />
 
   <!-- CDN-LINKS -->
@@ -14,6 +14,151 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <style type="text/css" media="all">
+  
+  /* ======== HEADER-SECTION-START ======== */
+
+    :root{
+      --header-background-color: rgb(0,78,180);
+      --fonts-border-icons-color: rgb(240,248,255);
+      --body-color: rgb(61, 0, 84);
+      --button-color: rgb(34, 0, 34);
+      --hover-color: rgb(56,163,255);
+      --border-color: rgb(0,78,180);
+    }
+    
+    *{
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .header-section{
+      position: fixed;
+      margin: 8px 0 0 0;
+      width: 100%;
+    }
+    
+    /* ==== NAVBER-SECTION-START ==== */
+    
+    .navber-section .navber-1{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 60px;
+      max-width: 48vw;
+      margin: auto;
+      box-shadow: 0 0 4px 4px purple;
+      border-radius: 8px;
+    }
+    
+    .navber-section .navber-1 .logo{
+      font-size: 34px;
+      font-weight: bold;
+      color: whitesmoke;
+      letter-spacing: 4px;
+      text-decoration: none;
+      margin: 0 0 0 16px;
+    }
+    
+    .navber-section .navber-1 .search-box{
+      display: flex;
+      box-shadow: 0 0 4px 4px purple;
+      border-radius: 16px;
+    }
+    
+    .navber-section .navber-1 .search-box input{
+      /* padding: 10px 216px 10px 216px; */
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      border: none;
+      background-color: rgb(34, 0, 34);
+    }
+    
+    .navber-section .navber-1 .search-box ::placeholder{
+      text-align: center;
+      letter-spacing: 2px;
+      font-size: 16px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+    
+    .navber-section .navber-1 .search-box .search-button{
+      display: flex;
+    }
+    
+    .navber-section .navber-1 .search-box .search-button{
+      padding: 10px 16px 10px 16px;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      border: none;
+      background-color: rgb(34, 0, 34);
+    }
+    
+    .navber-section .navber-1 .search-box .search-button:hover{
+      background-color: var(--hover-color);
+      transition: all 0.8ms;
+    }
+    
+    .navber-section .navber-1 .search-box #search-icon{
+      color: aliceblue;
+    }
+    
+    .navber-section .navber-1 .user-and-profile{
+      display: flex;
+      gap: 44px;
+    }
+    
+    .navber-section .navber-1 .user-and-profile .user-button{
+      display: flex;
+      align-items: center;
+      padding: 0 10.44px 0 10.44px;
+      background-color: var(--button-color);
+      box-shadow: 0 0 4px 4px purple;
+      border-radius: 50%;
+      border: none;
+    }
+    
+    .navber-section .navber-1 .user-and-profile .user-button:hover{
+      background-color: var(--hover-color);
+      transition: all 0.8ms;
+    }
+    
+    .navber-section .navber-1 .user-and-profile #user-icon{
+      display: flex;
+      /* background-color: var(--button-color); */
+      color: aliceblue;
+      font-size: 16px;
+      /* border-radius: 50%; */
+    }
+    
+    .navber-section .navber-1 .user-and-profile #profile-button{
+      border-radius: 16px;
+      border: none;
+      margin: 0 16px 0 0;
+      box-shadow: 0 0 4px 4px purple;
+    }
+    
+    .navber-section .navber-1 .user-and-profile #profile-icon{
+      display: flex;
+      border-radius: 50%;
+    }
+    
+    /* ==== NAVBER-SECTION-COMPLETE ==== */
+    
+    /* ======== HEADER-SECTION-COMPLETE ======== */
+    
+    /* ======== BODY-SECTION-START ======== */
+    
+    body{
+      background-color: var(--body-color);
+    }
+    
+  </style>
   
 </head>
 <body>
