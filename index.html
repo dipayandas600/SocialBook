@@ -157,6 +157,24 @@
     body{
       background-color: var(--body-color);
     }
+
+    .body-section{
+      max-width: 48vw;
+      margin: auto;
+    }
+
+    .body-section .left-side{
+      padding: 116px 0 0 0;
+      box-shadow: 0 0 4px 4px purple;
+      border-radius: 8px;
+      width: 244px;
+    }
+
+    .body-section .left-side .menu{
+      display: flex;
+      flex-direction: column;
+      padding: 0 0 0 68px;
+    }
     
   </style>
   
@@ -182,7 +200,18 @@
 
   <!-- BODY-SECTION-START -->
   <section class="body-section">
-    
+    <!-- LEFT-SIDE-START -->
+    <div class="left-side">
+      <img src="#" class="profile-icon">
+
+      <div class="menu">
+        <a href=""><img src="#" class="menu-icon">Home</a>
+        <a href=""><img src="#" class="menu-icon">Profile</a>
+        <a href=""><img src="#" class="menu-icon">Messeges</a>
+        <a href=""><img src="#" class="menu-icon">Followers</a>
+        <a href=""><img src="#" class="menu-icon">Notifications</a>
+      </div>
+    </div>
   </section>
   <!-- BODY-SECTION-END -->
 </body>
