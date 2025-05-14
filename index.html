@@ -254,6 +254,12 @@
       margin: 22px 0 0 0;
       padding: 16px 34px 16px 34px;
       display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .body-section .right-side .content-box .header{
+      display: flex;
       align-items: center;
       gap: 16px;
     }
@@ -267,6 +273,23 @@
       color: whitesmoke;
       letter-spacing: .88px;
       font-weight: 688;
+    }
+    
+    .body-section .right-side .content-box .body{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .body-section .right-side .content-box .body .body-text{
+      color: whitesmoke;
+      letter-spacing: .88px;
+      font-weight: 688;
+    }
+
+    .body-section .right-side .content-box .body .image-section{
+      border-radius: 8px;
+      box-shadow: 0 0 4px 1.88px;
     }
     
   </style>
@@ -316,6 +339,10 @@
       <div class="content-box">
         <div class="header">
           <img src="./public/images/profile-page/slider6.jpg" width="26px" class="profileicon"><h1 class="user-name">User Name</h1>
+        </div>
+        <div class="body">
+          <p class="body-text">Lorem ipsum dolor sit amet consectetur</p>
+          <img src="./public/images/profile-page/slider6.jpg" width="494px" class="image-section">
         </div>
       </div>
     </div>
