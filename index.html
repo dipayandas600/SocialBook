@@ -181,6 +181,7 @@
       flex-direction: column;
       align-items: center;
       gap: 88px;
+      backdrop-filter: blur(8px);
     }
     
     .body-section .left-side .profile-button{
@@ -222,10 +223,11 @@
     .body-section .right-side .upload-box{
       box-shadow: 0 0 4px 4px purple;
       border-radius: 8px;
-      padding: 16px 26px 16px 26px;
+      padding: 16px 16px 16px 16px;
       display: flex;
       align-items: center;
       gap: 16px;
+      backdrop-filter: blur(8px);
     }
 
     .body-section .right-side .upload-box .profile-image{
@@ -235,7 +237,7 @@
 
     .body-section .right-side .upload-box .upload-here{
       padding: 8px 138px 8px 138px;
-      border-radius: 8px;
+      border-radius: 16px;
       box-shadow: 0 0 4px 4px purple;
       border: none;
       background-color: rgb(34, 0, 34);
@@ -249,7 +251,7 @@
     
     .body-section .right-side .upload-box .upload-button{
       padding: 16px 16px 16px 16px;
-      border-radius: 8px;
+      border-radius: 50%;
       border: none;
       box-shadow: 0 0 4px 4px purple;
       background-color: rgb(34, 0, 34);
@@ -263,6 +265,7 @@
       display: flex;
       flex-direction: column;
       gap: 16px;
+      backdrop-filter: blur(8px);
     }
 
     .body-section .right-side .content-box .header{
@@ -296,6 +299,17 @@
     .body-section .right-side .content-box .body .image-section{
       border-radius: 8px;
       box-shadow: 0 0 4px 1.88px;
+    }
+    
+    .body-section .right-side .content-box .footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .body-section .right-side .content-box .footer .icons{
+      display: flex;
+      gap: 58px;
     }
     
   </style>
@@ -349,6 +363,13 @@
         <div class="body">
           <p class="body-text">Lorem ipsum dolor sit amet consectetur</p>
           <img src="./public/images/profile-page/slider6.jpg" width="494px" class="image-section">
+        </div>
+        <div class="footer">
+          <div class="icons">
+            <i class="fa-regular fa-thumbs-up" id="icon"></i>
+            <i class="fa-regular fa-comment" id="icon"></i>
+            <i class="fa-regular fa-share-from-square" id="icon"></i>
+          </div>
         </div>
       </div>
     </div>
