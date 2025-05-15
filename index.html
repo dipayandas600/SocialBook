@@ -54,6 +54,7 @@
       margin: 8px auto;
       box-shadow: 0 0 4px 4px purple;
       border-radius: 8px;
+      backdrop-filter: blur(8px);
     }
     
     .navber-section .navber-1 .logo{
@@ -155,7 +156,13 @@
     /* ======== BODY-SECTION-START ======== */
     
     body{
-      background-color: var(--body-color);
+      /* background-color: var(--body-color); */
+      background-image: url(./public/images/backgroundimage1.jpg);
+      /* background-image: url(./public/images/backgroundimage2.jpg); */
+      /* background-image: url(./public/images/backgroundimage3.jpg); */
+      /* background-image: url(./public/images/backgroundimage4.jpg); */
+      background-size: 100%;
+      background-position: center;
     }
     
     .body-section{
@@ -252,7 +259,7 @@
       box-shadow: 0 0 4px 4px purple;
       border-radius: 8px;
       margin: 22px 0 0 0;
-      padding: 16px 34px 16px 34px;
+      padding: 16px 26px 16px 26px;
       display: flex;
       flex-direction: column;
       gap: 16px;
@@ -284,7 +291,6 @@
     .body-section .right-side .content-box .body .body-text{
       color: whitesmoke;
       letter-spacing: .88px;
-      font-weight: 688;
     }
 
     .body-section .right-side .content-box .body .image-section{
